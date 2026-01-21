@@ -1,5 +1,3 @@
-# 2a-me
-
 ## Getting Started
 
 To run this project:
