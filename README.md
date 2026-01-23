@@ -1,3 +1,5 @@
+# 2a
+
 ## Getting Started
 
 To run this project:
@@ -8,6 +10,26 @@ pnpm dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Structure
+
+```
+2a/
+├── app/                    # Next.js App Router directory
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout component
+│   └── page.tsx           # Home page component
+├── public/                 # Static assets
+├── eslint.config.mjs      # ESLint configuration
+├── next-env.d.ts          # Next.js TypeScript declarations
+├── next.config.ts         # Next.js configuration
+├── package.json           # Project dependencies and scripts
+├── pnpm-lock.yaml         # pnpm lock file
+├── pnpm-workspace.yaml    # pnpm workspace configuration
+├── postcss.config.mjs     # PostCSS configuration
+├── tsconfig.json          # TypeScript configuration
+└── README.md              # Project documentation
+```
 
 ## Code Explanation: app/page.tsx
 
